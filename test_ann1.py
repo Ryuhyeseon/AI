@@ -2,11 +2,10 @@
 
 # 1. 필수 라이브러리 임포트
 import sys                      # 시스템 관련 파라미터 및 함수 접근 (예: 최대 출력 크기 설정)
-import os                       # 운영체제 기능 접근 (이 코드에서는 직접 사용되지 않음)
 import numpy as np              # 수치 계산, 배열/행렬 연산 라이브러리 (별칭 np)
 from tensorflow import keras    # TensorFlow 백엔드를 사용하는 Keras API
 from keras import layers, models      # Keras 모델 구축을 위한 층(layers) 및 모델(models) 클래스/함수
-from tensorflow.keras import datasets # Keras에 내장된 데이터셋 (예: MNIST)
+from keras import datasets # Keras에 내장된 데이터셋 (예: MNIST)
 from tensorflow.keras.utils import to_categorical # 레이블 원-핫 인코딩 함수 (표준 방식)
 import matplotlib.pyplot as plt # 데이터 시각화 라이브러리 (별칭 plt)
 
